@@ -20,7 +20,7 @@ Setup k8s [Kind](https://kind.sigs.k8s.io/) cluster with [Cilium CNI](https://do
 To provision the cluster run (it also installs kubectl, Kind and Cilium Cli, if missing):
 
 ```shell
-bin/istall.sh --hubble
+bin/istall.sh
 ```
 
 Verify the cluster:
